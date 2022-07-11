@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.LotOrdersMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.LotOrders">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="deleted_at" jdbcType="TIMESTAMP" property="deletedAt" />
+    <result column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="floor" jdbcType="VARCHAR" property="floor" />
+    <result column="lot_id" jdbcType="VARCHAR" property="lotId" />
+    <result column="car_no" jdbcType="VARCHAR" property="carNo" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="begin_time" jdbcType="VARCHAR" property="beginTime" />
+    <result column="end_time" jdbcType="VARCHAR" property="endTime" />
+  </resultMap>
+</mapper>

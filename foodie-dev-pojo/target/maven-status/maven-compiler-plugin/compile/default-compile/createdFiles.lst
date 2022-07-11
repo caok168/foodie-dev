@@ -1,1 +1,7 @@
+com/imooc/pojo/LockLots.class
+com/imooc/pojo/Userinfo.class
+com/imooc/pojo/CarStatuses.class
+com/imooc/pojo/bo/UserBO.class
 com/imooc/pojo/Stu.class
+com/imooc/pojo/Nodes.class
+com/imooc/pojo/LotOrders.class

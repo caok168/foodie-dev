@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.LockLotsMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.LockLots">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="deleted_at" jdbcType="TIMESTAMP" property="deletedAt" />
+    <result column="lot_id" jdbcType="VARCHAR" property="lotId" />
+    <result column="floor" jdbcType="VARCHAR" property="floor" />
+    <result column="bt_addr" jdbcType="VARCHAR" property="btAddr" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="up_command" jdbcType="VARCHAR" property="upCommand" />
+    <result column="lock_type" jdbcType="INTEGER" property="lockType" />
+    <result column="down_command" jdbcType="VARCHAR" property="downCommand" />
+    <result column="status_command" jdbcType="VARCHAR" property="statusCommand" />
+    <result column="deleted" jdbcType="TINYINT" property="deleted" />
+    <result column="safe_radius_px" jdbcType="INTEGER" property="safeRadiusPx" />
+    <result column="leave_radius_px" jdbcType="INTEGER" property="leaveRadiusPx" />
+    <result column="router_ip" jdbcType="VARCHAR" property="routerIp" />
+    <result column="sleep_time" jdbcType="INTEGER" property="sleepTime" />
+    <result column="lock_keys" jdbcType="VARCHAR" property="lockKeys" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+</mapper>

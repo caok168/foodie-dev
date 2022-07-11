@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.mapper.CarStatusesMapper">
+  <resultMap id="BaseResultMap" type="com.imooc.pojo.CarStatuses">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="car_no" jdbcType="VARCHAR" property="carNo" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="last_in_time" jdbcType="TIMESTAMP" property="lastInTime" />
+    <result column="last_out_time" jdbcType="TIMESTAMP" property="lastOutTime" />
+    <result column="visit_count" jdbcType="INTEGER" property="visitCount" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="last_group_id" jdbcType="VARCHAR" property="lastGroupId" />
+    <result column="last_floor" jdbcType="VARCHAR" property="lastFloor" />
+    <result column="last_position_x" jdbcType="INTEGER" property="lastPositionX" />
+    <result column="last_position_y" jdbcType="INTEGER" property="lastPositionY" />
+    <result column="last_node_id" jdbcType="VARCHAR" property="lastNodeId" />
+    <result column="image_url" jdbcType="VARCHAR" property="imageUrl" />
+    <result column="velocity_x" jdbcType="DOUBLE" property="velocityX" />
+    <result column="velocity_y" jdbcType="DOUBLE" property="velocityY" />
+    <result column="velocity_ts" jdbcType="BIGINT" property="velocityTs" />
+  </resultMap>
+</mapper>

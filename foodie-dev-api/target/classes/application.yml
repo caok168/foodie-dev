@@ -8,10 +8,10 @@ server:
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
-    password: root
+    password: car@2019
   hikari:
     connection-timeout: 30000
     minimum-idle: 5
@@ -27,5 +27,11 @@ spring:
 mybatis:
   type-aliases-package: com.imooc.pojo
   mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+mapper:
+  mappers: com.imooc.my.mapper.MyMapper
+  not-empty: false # 在进行数据库操作的时候，判断表达式 username != null,是否追加username != ''
+  identity: MYSQL
 

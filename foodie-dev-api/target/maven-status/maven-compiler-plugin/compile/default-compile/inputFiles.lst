@@ -1,2 +1,7 @@
-/Users/caokai/Documents/代码/大数据/foodie-dev/foodie-dev-api/src/main/java/com/imooc/Application.java
-/Users/caokai/Documents/代码/大数据/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java
+/Users/aibee/code/java/foodie-dev/foodie-dev-api/src/main/java/com/imooc/config/Swagger2.java
+/Users/aibee/code/java/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java
+/Users/aibee/code/java/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java
+/Users/aibee/code/java/foodie-dev/foodie-dev-api/src/main/java/com/imooc/aspect/ServiceLogAspect.java
+/Users/aibee/code/java/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/NodesController.java
+/Users/aibee/code/java/foodie-dev/foodie-dev-api/src/main/java/com/imooc/Application.java
+/Users/aibee/code/java/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/StuController.java

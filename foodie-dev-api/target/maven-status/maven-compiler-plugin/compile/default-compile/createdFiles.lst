@@ -1,3 +1,7 @@
-com/imooc/controller/HelloController.class
-com/imooc/controller/StuController.class
+com/imooc/controller/PassportController.class
+com/imooc/aspect/ServiceLogAspect.class
 com/imooc/Application.class
+com/imooc/controller/HelloController.class
+com/imooc/controller/NodesController.class
+com/imooc/controller/StuController.class
+com/imooc/config/Swagger2.class
